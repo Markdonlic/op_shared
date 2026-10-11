@@ -1,0 +1,23 @@
+{
+  "name": "orgnetpoint-shared",
+  "version": "1.0.0",
+  "description": "Shared TypeScript code for OrgNetPoint",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Markdonlic/op_shared.git"
+  },
+  "license": "UNLICENSED",
+  "private": false,
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
